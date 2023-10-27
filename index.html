@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปูนพร้อมก่อ สุดหล่อพร้อมยัง</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function setUsername() {
+            document.getElementById("username-p").innerHTML = document.getElementById("username").value + "'s Gallery";
+        }
+
+        function setProfileImage() {
+            document.getElementById("ProfileImage").style.backgroundImage = "url(" + document.getElementById("profileimg").value;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="avatar">
+            <div class="profile-img" id="ProfileImage">
+            </div>
+            <div class="noti">6</div>
+        </div>
+        <div class="username">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="on-hower">
+                <p style="font-size: x-large; font-weight: 400;" id="username-p">Meow Meow Ngao</p>
+            </a>
+        </div>
+        <div class="input-group"></div>
+        <div><label style="font-size: x-large; font-weight: 400;">username</label><input style="margin-left: 10px;"
+                type="text" id="username"><button id="setUsername" onclick="setUsername()">Apply</button></div>
+        <div><label style="font-size: x-large; font-weight: 400;">Profile Image</label><input style="margin-left: 10px;"
+                type="text" id="profileimg"><button style="margin-left: 10px;" id="setProfile"
+                onclick="setProfileImage()">Apply</button></div>
+        <div class="gallery">
+            <div class="gallery-item col-span">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5TvXEbhc5QKc7LhDYsf4pnN8Ud66Kqrl88A&usqp=CAU" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5oxLe3-mBnu1Q4_jvE5XDjZsExgbNgSakgQ&usqp=CAU" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://easydrawingguides.com/wp-content/uploads/2021/10/how-to-draw-doreamon-featured-image-1200.png" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://w0.peakpx.com/wallpaper/445/126/HD-wallpaper-doraemon-cartoon-cat.jpg" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0jhYIeCuqAVYRSk_li-fL1fSjF9EmlWq-Fd4XN_Hf8P3NK7-I2eA8p6NgI8D7KckrFHE&usqp=CAU" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8l8Hy0tb8u_TjgYLJC81NGDr7K3rdot5DuAJfx5V75Z-fUAgoO65QiiwDW9U1yiMz2_8&usqp=CAU" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://s1.zerochan.net/Doraemon.%28Character%29.600.3005150.jpg" alt="" class="img">
+            </div>
+            <div class="gallery-item row-span">
+                <img src="https://e0.pxfuel.com/wallpapers/1/751/desktop-wallpaper-cute-doraemon-eye-blinking-doraemon.jpg" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRP-x5CmcGzU98Ha207F4BQIvkVI2GkBsYtJzNm811ZFomGqPGvy-LIWGqnlriAxteaQ&usqp=CAU" alt="" class="img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs5c69J2UvWuzm107_yKvnJrpHE5iLq5NNEA&usqp=CAU" alt="" class="img">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
